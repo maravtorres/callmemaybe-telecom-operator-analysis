@@ -27,7 +27,7 @@ CallMeMaybe is a virtual telecom operator. With **43.7% of calls missed**, the b
 - **1,092 operators**, 290 clients
 - 8,172 records (15.2%) have no operator assigned (system/routing calls) and were excluded from the per-operator analysis.
 
-**The datasets are not included in this repository** — they were provided on the TripleTen learning platform. The notebook will not run without them; the code, outputs, and the PDF report are preserved as delivered.
+The datasets are included in this repository (`telecom_dataset_us.csv` and `telecom_clients_us.csv`), so the notebook runs as delivered.
 
 ## Key findings
 
@@ -74,4 +74,4 @@ callmemaybe-telecom-operator-analysis/
 
 ## How to run it
 
-Open `callmemaybe_operator_analysis.ipynb` in Jupyter Notebook or JupyterLab and run the cells top to bottom. It expects `telecom_dataset_us.csv` and `telecom_clients_us.csv` in the same folder (not included — see Data above).
+Open `callmemaybe_operator_analysis.ipynb` in Jupyter Notebook or JupyterLab and run the cells top to bottom. It expects `telecom_dataset_us.csv` and `telecom_clients_us.csv` in the same folder (both included).
